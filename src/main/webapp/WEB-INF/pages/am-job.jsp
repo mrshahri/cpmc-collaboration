@@ -216,7 +216,7 @@
     </article>
 
     <aside class="article" style="text-align: center">
-        <h2>Print Model Object</h2>
+        <h2>Collaboration Parameters</h2>
         <p>
         <h5>Operation Id: </h5>
         <input type="text" style="text-align: center" disabled="disabled" name="${operationId}" value="${operationId}" id="${operationId}"/>
@@ -229,7 +229,7 @@
         </c:forEach>
 
         <p>
-            <input style="text-align: center" type="submit" value="Print" onclick="sendParameters()"/>
+            <input style="text-align: center" type="submit" value="Start Manufacturing" onclick="sendParameters()"/>
         </p>
     </aside>
 
